@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/7ca5b7c7-20aa-42a8-a278-f801b0d65fa1/fb548c0a-8582-43c5-9fba-cd98bf27452f/IN-en-20240326-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 70vh;
+    position: relative;
+    background-size: max(1200px, 100vw);
+}
+
+.main .box {
+    height: 70vh;
+    width: 100%;
+    opacity: 0.44;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 63vw;
+    margin: auto;
+    align-items: center;
+    height: 60px;
+    padding: 18px;
+}
+
+nav img {
+    width: 150px;
+    color: rgb(255, 0, 0);
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+    width: 85px;
+    height: 30px;
+}
+
+.hero {
+    font-family: 'Martel Sans', sans-serif;
+    height: calc(100% - 96px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    color: white;
+    gap: 20px;
+    text-align: center;
+
+}
+
+.hero> :first-child {
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.hero> :nth-child(3) {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.seperation {
+    background-color: rgb(57, 56, 56);
+    height: 9px;
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    padding: 10px 24px;
+    font-size: 20px;
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: white;
+}
+
+.main input {
+    padding: 10px 100px 10px 0px;
+    font-size: 20px;
+    background-color: rgba(10, 10, 10, 0);
+    border-radius: 5px;
+    color: white;
+}
+
+.first {
+    font-family: 'Martel Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    color: white;
+    align-items: center;
+    width: 80vw;
+    flex-wrap: wrap;
+
+}
+
+.sec1img {
+    position: relative;
+}
+
+.sec1img img {
+    position: relative;
+    top: 10px;
+    width: 562px;
+    z-index: 10;
+}
+
+.sec1img video {
+    position: absolute;
+    left: 80px;
+    top: 90px;
+}
+
+section.first>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.first>div :first-child {
+    padding-top: 10px;
+    font-size: 48px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.first>div :nth-child(2) {
+    font-size: 17px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.sep1 {
+    margin-top: 50px;
+}
+
+.sec3img {
+    position: relative;
+}
+
+.sec3img img {
+    position: relative;
+    top: 10px;
+    width: 622px;
+    z-index: 10;
+}
+
+.sec3img video {
+    position: absolute;
+    left: 120px;
+    top: 40px;
+    width: 380px;
+    height: 230px;
+}
+
+.faq {
+    font-family: 'Martel Sans', sans-serif;
+    padding: 34px;
+}
+
+.faq h2 {
+    font-family: 'Martel Sans', sans-serif;
+    color: white;
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: center;
+}
+
+.faq h4 {
+    font-family: 'Martel Sans', sans-serif;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.faqbox:hover {
+    background-color: red;
+}
+
+.faqbox {
+    transition: all 0.5s ease-in-out;
+    display: flex;
+    background-color: rgb(31, 30, 30);
+    color: white;
+    width: 50%;
+    margin: 15px auto;
+    padding: 20px;
+    justify-content: space-between;
+    font-weight: bolder;
+}
+
+.faqbox svg {
+    color: white;
+}
+
+.inp2 {
+    padding: 10px 100px 10px 0px;
+    font-size: 20px;
+    background-color: rgba(10, 10, 10, 0);
+    border-radius: 5px;
+    color: white;
+}
+
+.hero2 {
+    font-family: 'Martel Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+footer>div {
+    font-family: 'Martel Sans', sans-serif;
+    color: white;
+    margin: 20px auto;
+    display: flex;
+    width: 60%;
+}
+
+.footer {
+    font-family: 'Martel Sans', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 20px auto;
+    color: white;
+    width: 60%;
+}
+
+.footer-item {
+    font-family: 'Martel Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.footer a {
+    color: white;
+}
+
+.btn2 {
+    width: 85px;
+    height: 30px;
+    padding: 3px 8px;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+    .hero> :nth-child(1) {
+        font-size: 32px;
+    }
+
+    .hero> :nth-child(2) {
+        font-size: 18px;
+    }
+
+    .hero> :nth-child(3) {
+        font-size: 18px;
+    }
+
+    nav {
+        max-width: 90vw;
+    }
+}
